@@ -1,4 +1,3 @@
-============================================
 This code simulates liquid temperatures in an enclosed space. Run by executing the main.py Python script.
 ============================================
 HOW TO MODIFY THE SIMULATION TO YOUR LIKING
