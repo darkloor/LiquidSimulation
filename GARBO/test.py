@@ -1,5 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+import sys
+# Move one directory back
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from Converters.LengthConverter import LengthConverter
 
 # Constants
@@ -12,7 +16,7 @@ stefan_boltzmann_const = 5.67e-8  # W/m^2*K^4, Stefan-Boltzmann constant
 h_convection = 10           # W/m^2*K, heat transfer coefficient for convection
 solar_constant = 1000       # W/m^2, average solar radiation intensity
 time_step = 60              # seconds
-simulation_time = 86400 * 1.2     # In seconds, 86400 = 1 day
+simulation_time = 86400 * 3     # In seconds, 86400 = 1 day
 
 # # Container dimensions
 # length = 1.0  # meters
