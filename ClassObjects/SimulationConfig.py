@@ -11,7 +11,7 @@ class SimulationConfig:
         start_date=pd.to_datetime('2024-11-23 00:00'),
         simulation_time=86400,  # seconds (default: 1 day)
         simulation_timestep=60,  # seconds
-        initial_liquid_temperature = 20, # CELCIUS
+        initial_liquid_temperature = 25, # CELCIUS
     ):
         self.latitude = latitude
         self.longitude = longitude

@@ -1,7 +1,5 @@
 
-from LiquidType import LiquidType
-from ThermalExpansion import ThermalExpansion
-
+from ClassObjects.LiquidType import LiquidType
 
 class Liquid:
     def __init__(self, liquid_type: LiquidType, emissivity, heat_capacity_func, density_func, thermal_expansion_coefficient_func):
