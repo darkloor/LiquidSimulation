@@ -14,8 +14,8 @@ Edit your config values to your liking (also set in the main.py script)
 - location (desired lon/lat) (IMPACTS SUN POSITIONING, AND THE TEMPERATURE DATA USED)
 - start_date (gives the time of year that the historical temperature data will be referenced)
 - simulation_time (how long you the output graph to show in SECONDS, default 1 day)
-- simulation_timestep (how long you the output graph to show in SECONDS, default 1 day)
-- etc... you can read. Just know it works.
+- simulation_timestep (how data points do you want to collect. minutely? hourly?)
+- etc...
 
 **Dependencies**
 meteostat
